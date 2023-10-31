@@ -28,7 +28,7 @@ def app(car_df):
 
   # Create scatter plots.
   for feature in features_list:
-    st.subheader(f"Scatter plot between {feature} and GlassType")
+    st.subheader(f"Scatter plot between {feature} and Price")
     plt.figure(figsize = (12, 6))
     sns.scatterplot(x = feature, y = 'price', data = car_df)
     st.pyplot()
