@@ -3,6 +3,7 @@ import streamlit as st
 def app():
   import turtle
   st.markdown("<body><h1 style='color:black;font-size:40px'> <center> <b> CAR PRICE PREDICTION APP </b></center></h1></body>",unsafe_allow_html = True)
+  st.markdown("<body><h2 style='color:black;font-size:35px'> <center> <b> -by Somya Jhamb </b></center></h1></body>",unsafe_allow_html = True)
   st.markdown("<h2 style = 'color:brown;font-size:30px'><i>About app</i></h2><p style='color:darkslategrey;font-size:25px'><center>The <b>CAR PRICE PREDICTION APP</b> is a  web app that allows a user to predict the prices of a car based on their engine size, horse power, dimensions and the drive wheel type parameters. In addition, the user can visualise the dataset and its attributes, plot different graphs for the dataset used for machine learning purposes.</center> </p>", unsafe_allow_html = True)
   st.markdown("""
   	<h2 style = "color: green;font-size :25px"> You can navigate to: </h2>
